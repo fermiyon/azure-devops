@@ -1,4 +1,5 @@
 hello:
 	echo "Hello from makefile"
 install:
-	echo "installing.."
+	pip install --upgrade pip &&\
+		pip install -r requirements.txt
